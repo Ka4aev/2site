@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/logo.jpg">
+    <title>Recediviz</title>
+</head>
+
+<body>
+    <header>
+        <nav class="header__nav">
+            <svg xmlns="http://www.w3.org/2000/svg" class="header__nav--logo" width="110" height="26"
+                viewBox="0 0 110 26" fill="none">
+                <g clip-path="url(#clip0_1_4)">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M73.2384 14.3073C72.5203 13.8264 71.6483 13.586 70.6225 13.586C69.5966 13.586 68.6733 13.8337 67.8526 14.3291C67.0319 14.8245 66.3871 15.5457 65.9181 16.4928C65.4638 17.4253 65.2366 18.5254 65.2366 19.793C65.2366 21.0606 65.4638 22.168 65.9181 23.1151C66.3871 24.0476 67.0319 24.7615 67.8526 25.2569C68.6733 25.7523 69.5966 26 70.6225 26C71.6483 26 72.5203 25.7596 73.2384 25.2788C73.9712 24.7834 74.4988 24.1277 74.8212 23.3118V25.847H77.8989V9H74.8212V16.2524C74.4988 15.4365 73.9712 14.7881 73.2384 14.3073ZM69.2595 17.214C69.8457 16.5875 70.6225 16.2743 71.5897 16.2743C72.5277 16.2743 73.2971 16.5948 73.8979 17.2359C74.5135 17.8624 74.8212 18.7148 74.8212 19.793C74.8212 20.8566 74.5135 21.709 73.8979 22.3501C73.2971 22.9766 72.5277 23.2899 71.5897 23.2899C70.6225 23.2899 69.8457 22.9839 69.2595 22.372C68.6733 21.7454 68.3802 20.8858 68.3802 19.793C68.3802 18.7002 68.6733 17.8406 69.2595 17.214Z"
+                        fill="#E9EDED" />
+                    <path
+                        d="M31.0996 16.0557C31.5539 15.2835 32.1548 14.6788 32.9022 14.2417C33.6497 13.79 34.485 13.5642 35.4083 13.5642V16.8644H34.507C32.2354 16.8644 31.0996 17.9134 31.0996 20.0116V25.847H28V13.739H31.0996V16.0557Z"
+                        fill="#E9EDED" />
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M47.4779 19.334C47.4779 19.64 47.4412 19.9897 47.368 20.3831H38.4428C38.4868 21.4613 38.7799 22.2554 39.3221 22.7654C39.8644 23.2753 40.5385 23.5303 41.3446 23.5303C42.0627 23.5303 42.6563 23.3555 43.1252 23.0058C43.6089 22.6561 43.9166 22.1826 44.0485 21.5852H47.324C47.1628 22.4303 46.8184 23.1879 46.2908 23.8582C45.7632 24.5284 45.0817 25.0529 44.2464 25.4318C43.4257 25.8106 42.5097 26 41.4985 26C40.3114 26 39.2562 25.7523 38.3329 25.2569C37.4096 24.7469 36.6915 24.0257 36.1786 23.0932C35.6656 22.1607 35.4092 21.0606 35.4092 19.793C35.4092 18.5254 35.6656 17.4253 36.1786 16.4928C36.6915 15.5457 37.4096 14.8245 38.3329 14.3291C39.2562 13.8337 40.3114 13.586 41.4985 13.586C42.7002 13.586 43.7481 13.8337 44.6421 14.3291C45.5507 14.8245 46.2468 15.5093 46.7304 16.3835C47.2287 17.2432 47.4779 18.2267 47.4779 19.334ZM44.3563 19.0281C44.4002 18.0373 44.1364 17.2869 43.5649 16.7769C43.008 16.267 42.3192 16.012 41.4985 16.012C40.6631 16.012 39.9597 16.267 39.3881 16.7769C38.8165 17.2869 38.5014 18.0373 38.4428 19.0281H44.3563Z"
+                        fill="#E9EDED" />
+                    <path
+                        d="M57.9659 14.8536C56.9253 14.0086 55.621 13.586 54.0529 13.586C52.8658 13.586 51.8106 13.8337 50.8873 14.3291C49.964 14.8245 49.2459 15.5457 48.733 16.4928C48.22 17.4253 47.9636 18.5254 47.9636 19.793C47.9636 21.0606 48.22 22.1607 48.733 23.0932C49.2459 24.0257 49.964 24.7469 50.8873 25.2569C51.8106 25.7523 52.8658 26 54.0529 26C55.621 26 56.9253 25.5775 57.9659 24.7324C59.0211 23.8873 59.6805 22.7362 59.9443 21.2792H56.6689C56.537 21.9203 56.2365 22.4303 55.7676 22.8091C55.2986 23.1733 54.705 23.3555 53.9869 23.3555C53.1662 23.3555 52.4774 23.0568 51.9205 22.4594C51.3783 21.8474 51.1071 20.9586 51.1071 19.793C51.1071 18.6274 51.3783 17.7459 51.9205 17.1485C52.4774 16.5365 53.1662 16.2305 53.9869 16.2305C54.705 16.2305 55.2986 16.42 55.7676 16.7988C56.2365 17.1631 56.537 17.6657 56.6689 18.3068H59.9443C59.6805 16.8498 59.0211 15.6987 57.9659 14.8536Z"
+                        fill="#E9EDED" />
+                    <path d="M64.1472 13.739V25.847H61.0476V13.739H64.1472Z" fill="#E9EDED" />
+                    <path d="M82.7083 13.739V25.847H79.6087V13.739H82.7083Z" fill="#E9EDED" />
+                    <path
+                        d="M92.7888 13.739L89.7112 22.7654L86.6115 13.739H83.2921L87.7986 25.847H91.5797L96.0863 13.739H92.7888Z"
+                        fill="#E9EDED" />
+                    <path d="M99.8096 13.739V25.847H96.71V13.739H99.8096Z" fill="#E9EDED" />
+                    <path
+                        d="M110 23.268H104.021L109.78 16.165V13.739H100.767V16.2961H106.241L100.635 23.3992V25.847H110V23.268Z"
+                        fill="#E9EDED" />
+                    <path
+                        d="M62.59 12.6426C63.6018 12.6426 64.422 11.8272 64.422 10.8213C64.422 9.81542 63.6018 9 62.59 9C61.5783 9 60.7581 9.81542 60.7581 10.8213C60.7581 11.8272 61.5783 12.6426 62.59 12.6426Z"
+                        fill="#E9EDED" />
+                    <path
+                        d="M82.9796 10.8213C82.9796 11.8272 82.1594 12.6426 81.1477 12.6426C80.1359 12.6426 79.3157 11.8272 79.3157 10.8213C79.3157 9.81542 80.1359 9 81.1477 9C82.1594 9 82.9796 9.81542 82.9796 10.8213Z"
+                        fill="#E9EDED" />
+                    <path
+                        d="M98.258 12.6426C99.2698 12.6426 100.09 11.8272 100.09 10.8213C100.09 9.81542 99.2698 9 98.258 9C97.2463 9 96.4261 9.81542 96.4261 10.8213C96.4261 11.8272 97.2463 12.6426 98.258 12.6426Z"
+                        fill="#E9EDED" />
+                    <path d="M13 13H0V26H13V13Z" fill="#00A1FF" />
+                    <path
+                        d="M26 7C26 3.13401 22.866 0 19 0C15.134 0 12 3.13401 12 7C12 10.866 15.134 14 19 14C22.866 14 26 10.866 26 7Z"
+                        fill="#E00E00" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_1_4">
+                        <rect width="120" height="36" fill="white" />
+                    </clipPath>
+                </defs>
+            </svg>
+            <ul class="header__nav--spisok">
+                <li><a href="#states" class="header__nav--menu">States</a></li>
+                <li><a href="#tools" class="header__nav--menu">Tools</a></li>
+                <li><a href="#people" class="header__nav--menu">People</a></li>
+                <li><a href="#learn" class="header__nav--menu">Learn More</a></li>
+                <li><a href="#donate" class="header__nav--menu">Donate</a></li>
+                <li><a href="#" class="header__nav--menu">Log In</a></li>
+            </ul>
+
+        </nav>
+        <div class="block__header">
+            <div class="block__header--about">
+                <span class="block__header--about  block__header--about_text">Every person who safely<br>transitions
+                    back to the<br>community is a step<br>toward a better society.</span>
+                <span class="block__header--about block__header--about_text1">Criminal justice leaders use Recidiviz to
+                    get a real-time picture of<br>their system, diagnose issues, and drive meaningful changes.</span>
+                <button class="block__header--about block__header--about_btn">See our work in action</button>
+            </div>
+            <div class="block__header--trusted">
+                <span class="block__header--trusted block__header--trusted_text">Trusted in:</span>
+                <div class="block__header--trusted block__header--trusted_cities">
+                    <div class="block__header--trusted block__header--trusted_text1">Idaho
+                        <div class="line"></div>
+                    </div>
+                    <div class="block__header--trusted block__header--trusted_text1">Maine
+                        <div class="line"></div>
+                    </div>
+                    <div class="block__header--trusted block__header--trusted_text1">Missouri
+                        <div class="line"></div>
+                    </div>
+                    <div class="block__header--trusted block__header--trusted_text1">North Dakota
+                        <div class="line"></div>
+                    </div>
+                    <div class="block__header--trusted block__header--trusted_text1">Pennsylvania
+                        <div class="line"></div>
+                    </div>
+                    <div class="block__header--trusted block__header--trusted_text1">Tennessee
+                        <div class="line"></div>
+                        <div>
+                        </div>
+                    </div>
+
+                </div>
+    </header>
+    <main>
+        <section class="block-story" id="states">
+            <article class="block-story__about">
+                <h1 class="block-story__text">We are a non-profit that partners with state<br>criminal justice agencies
+                    to advance their<br>use of data and reduce incarceration. </h1>
+                <div class="block-strory__plan">
+                    <div class="block-story__plan--circle">1</div>
+                    <div class="block-story__text line-story"></div>
+                    <div class="block-story__plan--circle">2</div>
+                    <div class="block-story__text line-story"></div>
+                    <div class="block-story__plan--circle">3</div>
+                </div>
+                <div class="block-story__about block-story__about--text-down"> 
+                    <span class="block-story__about--text-down1">intake an <br>agency’s <br>disjointed data</span>
+                    <span class="block-story__about--text-down1">deploy tools for <br>all levels of<br> decision making</span>
+                    <span class="block-story__about--text-down1">improve<br> outcomes for <br>justice-impacted <br>individuals</span>
+                </div>
+            </article>
+            <article class="block-story__human">
+                <div class="block-story__human--text ">
+                    <h2 class="block-story__human--title">A human–centered definition of success.</h2>
+                    <span class="block-story__human--desc">Our approach is shaped by the perspective and experience of people impacted by the justice system. Together, we are focused on restoring equity and supporting success in the community.</span>
+                    <button class="block-story__human-btn">Our approach</button>
+                </div>
+                <div class="block-story__human--img">
+                    <div class="block-story__human--boyfriend"></div>
+                    <div class="block-story__human--daddy" ></div>
+                </div>
+            </article>
+            <article class="block-story__nav">
+                <div class="block-story__nav--menu">
+                    <div class="block-story__nav--line"></div>
+                    <div class="block-story__nav--icons">
+                        <img src="./public/images/iconted.png" class="block-story__nav--image" alt="Лого компании">
+                        <span class="block-story__nav--name">TED Talks</span>
+                    </div>
+                </div>
+                <div class="block-story__nav--menu">
+                    <div class="block-story__nav--line"></div>
+                    <div class="block-story__nav--icons">
+                        <img src="./public/images/imagetnyt.png" class="block-story__nav--image" alt="Лого компании">
+                        <span class="block-story__nav--name">The New York Times</span>
+                    </div>
+                </div>
+                <div class="block-story__nav--menu">
+                    <div class="block-story__nav--line"></div>
+                    <div class="block-story__nav--icons">
+                        <img src="./public/images/iconss.png" class="block-story__nav--image" alt="Лого компании">
+                        <span class="block-story__nav--name">StateScoop</span>
+                    </div>
+                </div>
+                <div class="block-story__nav--menu">
+                    <div class="block-story__nav--line"></div>
+                    <div class="block-story__nav--icons">
+                        <img src="./public/images/iconap.png" class="block-story__nav--image" alt="Лого компании">
+                        <span class="block-story__nav--name">Associated Press</span>
+                    </div>
+                </div>
+                <div class="block-story__nav--menu">
+                    <div class="block-story__nav--line"></div>
+                    <div class="block-story__nav--icons">
+                        <img src="./public/images/icont.png" class="block-story__nav--image" alt="Лого компании">
+                        <span class="block-story__nav--name">Time</span>
+                    </div>
+                </div>
+                <div class="block-story__nav--menu">
+                    <div class="block-story__nav--line"></div>
+                    <div class="block-story__nav--icons">
+                        <img src="./public/images/iconft.png" class="block-story__nav--image" alt="Лого компании">
+                        <span class="block-story__nav--name">Freethink</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="black-block" id="tools">
+            <article>
+                <div class="black-block__center">
+                    <h1 class="black-black__center--title">See the forest and the trees.</h1>
+                    <span class="black-black__center--text">The criminal justice system can't support safe, whole communities without feedback on what’s working and what’s not. We stitch together data from fragmented systems to provide decision-makers with the information they need to improve outcomes. With this data, we surface opportunities to safely chart a path to a smaller system, and to track the impact of policy and practice changes over time.</span>
+                </div>
+            </article>
+            <article class="black-block__tab">
+                <span class="black-block__tab--text">Partners</span>
+                <img class='black-block__tab--company' src="./public/images/company1.jpg" alt="компании">
+                <img class='black-block__tab--company' src="./public/images/company2.jpg" alt="компании">
+                <img class='black-block__tab--company' src="./public/images/company3.jpg" alt="компании">
+                <img class='black-block__tab--company' src="./public/images/company4.jpg" alt="компании">
+                <img class='black-block__tab--company' src="./public/images/company5.jpg" alt="компании">
+                <img class='black-block__tab--company' src="./public/images/company6.jpg" alt="компании">
+                <span class="black-block__tab--text">See All</span>
+            </article>
+            
+        </section>
+        <section class="block-info" >
+            <article class="block-info__picture">
+                <div class="block-info__picture--img" id="people"></div>
+            </article>
+            <article class="block-info__information" >
+                <span class="block-info__title">Get the right information to the right person at the right time.</span>
+                <div class="block-info__text">
+                    <div class="div-info__text--block">
+                        <h1 class="div-info__text--title">For Leaders</h1>
+                        <span class="div-info__text--about">Set goals, forecast the impact of policy or practice changes, and track their outcomes across your agency.</span>                
+                    </div>
+                    <div class="div-info__text--block">
+                        <h1 class="div-info__text--title">For Line Staff</h1>
+                        <span class="div-info__text--about">Track probation and parole outcomes, see what’s leading to success, and reduce recidivism with our case management system.</span>                
+                    </div>
+                    <div class="div-info__text--block">
+                        <h1 class="div-info__text--title">For the Public</h1>
+                        <span class="div-info__text--about">Use open source code, public data, interactive tools, and data visualizations to understand the state of incarceration, promote accountability, and conduct research.</span>                
+                    </div>
+                    <div class="div-info__text--block">
+                        <h1 class="div-info__text--title">For Policymakers and Advocates</h1>
+                        <span class="div-info__text--about">Project the impact of policies on carceral, fiscal, and community outcomes. Understand where disparities begin, where they grow, and whether a policy is likely to increase or reduce them.</span>                
+                    </div>
+                </div>
+
+        </section>
+        <section class="press">
+            <div class="press__header">
+                <h1 class="press__title">Recidiviz in the Press</h1>
+                <button class="press_btn">See All</button>
+            </div>
+            <article class="press__block">
+                <div class="press__block--companies">
+                    <div class="press__block--line"></div>
+                    <div class="press__block--about">
+                        <img src="./public/images/logo1.png"class="press__block--logo" alt="Лого компании">
+                        <span class="press__block--name">TED Talks</span>
+                        <span class="press__block--name">2.22.22</span>
+                    </div>
+                    <span class="press__block--text">Meet the 2022 class of TED Fellows</span>
+                </div>
+                <div class="press__block--companies">
+                    <div class="press__block--line"></div>
+                    <div class="press__block--about">
+                        <img src="./public/images/logo2.png"class="press__block--logo" alt="Лого компании">
+                        <span class="press__block--name">Correctional News</span>
+                        <span class="press__block--name">2.2.22</span>
+                    </div>
+                    <span class="press__block--text">New Partnership Aims to Help Transform Prison Conditions</span>
+                </div>
+                <div class="press__block--companies">
+                    <div class="press__block--line"></div>
+                    <div class="press__block--about">
+                        <img src="./public/images/logo3.png"class="press__block--logo" alt="Лого компании">
+                        <span class="press__block--name">Department of Justice</span>
+                        <span class="press__block--name">1.26.22</span>
+                    </div>
+                    <span class="press__block--text">Justice Department Establishes Initiative to Strengthen States’ Use of Criminal Justice Data</span>
+                </div>
+                <div class="press__block--companies">
+                    <div class="press__block--line"></div>
+                    <div class="press__block--about">
+                        <img src="./public/images/logo4.png"class="press__block--logo" alt="Лого компании">
+                        <span class="press__block--name">The New York Times</span>
+                        <span class="press__block--name">12.27.21</span>
+                    </div>
+                    <span class="press__block--text">The 2021 Good Tech Awards</span>
+                </div>
+                <div class="press__block--companies">
+                    <div class="press__block--line"></div>
+                    <div class="press__block--about">
+                        <img src="./public/images/logo5.png"class="press__block--logo" alt="Лого компании">
+                        <span class="press__block--name">Corrections1</span>
+                        <span class="press__block--name">11.18.21</span>
+                    </div>
+                    <span class="press__block--text">Maine DOC to better harness correctional data to improve outcomes</span>
+                </div>
+                <div class="press__block--companies">
+                    <div class="press__block--line"></div>
+                    <div class="press__block--about">
+                        <img src="./public/images/logo6.png"class="press__block--logo" alt="Лого компании">
+                        <span class="press__block--name">Right on Crime</span>
+                        <span class="press__block--name">9.9.21</span>
+                    </div>
+                    <span class="press__block--text">Together, We Can Make Mississippi Safer and Reentry-Ready</span>
+                </div>
+            </article>
+        </section>
+        <section class="countries" id="learn"> 
+            <article class="countries__map">
+                <div class="countries__map--block">
+                    <h1 class="countries__map--title">Where we work</h1>
+                    <span class="countries__map--text">We're expanding. Get in touch and start turning your data into action.</span>
+                    <button class="countries__map--btn">Get in touch</button>
+                </div>
+                <img src="./public/images/map.svg" class="countries__map--img" alt="Фрагмент карты">
+            </article>
+            <article class="countries__names">
+                <div class="countries__names--about" id="names1">
+                    <h1 class="countries__names--title">COMPANY</h1>
+                    <div class="countries__names--line"></div>
+                    <span class="countries__names--text">About</span>
+                    <span class="countries__names--text">Team</span>
+                    <span class="countries__names--text">Supporters</span>
+                    <span class="countries__names--text">Diversity</span>
+                    <span class="countries__names--text">Blog</span>
+                    <span class="countries__names--text">Press</span>
+                    <span class="countries__names--text">Careers</span>
+                    <span class="countries__names--text">Contact</span>
+                </div>
+                <div class="countries__names--about" id="names2">
+                    <h1 class="countries__names--title">PRODUCT</h1>
+                    <div class="countries__names--line"></div>
+                    <span class="countries__names--text">Our Approach</span>
+                    <span class="countries__names--text">Corrections Leaders</span>
+                    <span class="countries__names--text">Corrections Staff</span>
+                    <span class="countries__names--text">Policy Impact</span>
+                    <span class="countries__names--text">Public Data</span>
+                    <span class="countries__names--text">Security</span>
+                    <span class="countries__names--text">Testimonials</span>
+                </div>
+                <div class="countries__names--about" id="names3">
+                    <h1 class="countries__names--title">STATES</h1>
+                    <div class="countries__names--line"></div>
+                    <span class="countries__names--text">Overview</span>
+                    <span class="countries__names--text">Idaho</span>
+                    <span class="countries__names--text">Maine</span>
+                    <span class="countries__names--text">Michigan</span>
+                    <span class="countries__names--text">Missouri</span>
+                    <span class="countries__names--text">North Dakota</span>
+                    <span class="countries__names--text">Pennsylvania</span>
+                    <span class="countries__names--text">Tennessee</span>
+                </div>
+                <div class="countries__names--about" id="names4">
+                    <h1 class="countries__names--title">NETWORK</h1>
+                    <div class="countries__names--line"></div>
+                    <span class="countries__names--text">Twitter</span>
+                    <span class="countries__names--text">Medium</span>
+                    <span class="countries__names--text">GitHub</span>
+                    <span class="countries__names--text">Linkedln</span>
+                </div>
+
+            </article>
+        </section>
+    </main>
+    <footer class="footer" id="donate">
+        <img src="./public/images/footer__logo.svg" alt="Лого" class="footer__logo">
+        <div class="footer__about">
+            <div class="footer__about--desc">
+                <span class="footer__about--text" id="footer__about--text1">Terms of Service</span>
+                <span class="footer__about--text" id="footer__about--text2">Privacy</span>
+                <span class="footer__about--text">Responsible Disclosure</span>
+            </div>
+            <div class="footer__about--desc">
+                <span class="footer__about--text" id="footer__about--text4" >Copyright © 2017</span>
+                <span class="footer__about--text" id="footer__about--text5" >-2022, Recidiviz. All Rights Reserved.</span>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
